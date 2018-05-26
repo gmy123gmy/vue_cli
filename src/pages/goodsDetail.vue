@@ -1,9 +1,14 @@
 <template lang="html">
     <div class="detail">
         <detail-header></detail-header>
-        <img src="../assets/logo.png">
-        <p class="site-title">树懒果园 泰国进口大金煌芒果</p>
+        <img src="../assets/logo.png">        
+        <p class="site-title">树懒果园 泰国进口大金煌芒果</p>        
+        <router-link to="/detail/msg">
         <p class="site-cont">5斤装，约2-4个果，大！！！</p>
+        </router-link>
+        <div class="show">
+            <router-view></router-view>
+        </div>
         <common-footer></common-footer>
     </div>
 </template>
